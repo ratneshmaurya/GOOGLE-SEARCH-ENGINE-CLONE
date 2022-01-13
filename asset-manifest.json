@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GOOGLE-SEARCH-ENGINE-CLONE/static/css/main.3c7203be.css",
+    "main.js": "/GOOGLE-SEARCH-ENGINE-CLONE/static/js/main.ba794d1f.js",
+    "index.html": "/GOOGLE-SEARCH-ENGINE-CLONE/index.html",
+    "main.3c7203be.css.map": "/GOOGLE-SEARCH-ENGINE-CLONE/static/css/main.3c7203be.css.map",
+    "main.ba794d1f.js.map": "/GOOGLE-SEARCH-ENGINE-CLONE/static/js/main.ba794d1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c7203be.css",
+    "static/js/main.ba794d1f.js"
+  ]
+}
