@@ -8,6 +8,8 @@ const Router = () => {
             <Routes>
                 {/* navigate to search url when home url comes , means we will always be on search path url*/}
                 <Route exact path='/' element={<Navigate to='/search'/>}/>
+                <Route exact path='/GOOGLE-SEARCH-ENGINE-CLONE' element={<Navigate to='/search'/>}/>
+               
 
                 {/* now every time render the result page on each of the path name */}
                 <Route exact path='/images' element={<Results/>}/>
