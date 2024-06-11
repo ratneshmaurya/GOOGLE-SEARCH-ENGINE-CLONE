@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Google Chrome Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo Screenshot
+### Main Page
+![Main Page Screenshot](https://github.com/ratneshmaurya/GOOGLE-SEARCH-ENGINE-CLONE/blob/master/public/googleClone.png)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Developed a browser-like application for searching and helping people find their desired stuff, similar to Google Chrome.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search Functionality:** Users can search for information and receive results from the Google Search API.
+- **User Interface:** A clean and responsive design using TailWind CSS.
+- **Navigation:** Efficient navigation using React-Router.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **ReactJS:** Front-end framework for building user interfaces.
+- **React Context:** State management for handling global state across components.
+- **React Router:** Library for handling routing in the application.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Google Search API:** Fetches search results from Google's search engine.
+- **Fetch API:** Native JavaScript API for making HTTP requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/yourusername/google-chrome-clone.git
+    cd google-chrome-clone
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies:**
 
-### `npm run eject`
+    ```bash
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Set up Google API Key:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Add your Google API key to a `.env` file in the root of your project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```env
+    REACT_APP_GOOGLE_API_KEY=your_google_api_key
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Start the development server:**
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Your app should now be running on `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+1. **Home Page:** Enter your search query in the search bar.
+2. **Search Results:** View search results fetched from the Google Search API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! Please follow these steps to contribute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Fork the repository.
+2. Create a new branch:
 
-### Making a Progressive Web App
+    ```bash
+    git checkout -b feature-branch
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Make your changes.
+4. Commit your changes:
 
-### Advanced Configuration
+    ```bash
+    git commit -m 'Add new feature'
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. Push to the branch:
 
-### Deployment
+    ```bash
+    git push origin feature-branch
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+6. Open a pull request.
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or support, please contact:
+
+- **Email:** ratneshmaurya2001@gmail.com
+- **GitHub:** [ratneshmaurya](https://github.com/ratneshmaurya)
+
+## Dependencies
+
+- **ReactJS**
+- **React Context**
+- **React Router**
+- **Tailwind CSS**
+- **Google Search API**
+- **Fetch API**
+
+## Credits
+
+- Developed by [Ratnesh Maurya](https://github.com/ratneshmaurya).
